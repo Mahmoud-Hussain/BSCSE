@@ -1,3 +1,5 @@
+//print a number as many times as you want 
+
 #include <stdio.h>
 void main()
 {
