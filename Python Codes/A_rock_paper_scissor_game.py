@@ -54,7 +54,7 @@ scissorr = '''\n ,--.
 while User != 'q':
     Computer = int(random.randint(1,3))
     
-    User = int(input("TYPE THE NUMBER TO PLAY \n\t[1]Rock  \n  \t[2]Paper \n  \t[3]Scissor?\n TYPE q to quit\n\n"))
+    User = int(input("______________________________________________TYPE THE NUMBER TO PLAY______________________________________________ \n\t[1]Rock  \n  \t[2]Paper \n  \t[3]Scissor?\n TYPE q to quit\n\n"))
 
     if Computer == 1:
         Computer = "rock"
@@ -72,22 +72,22 @@ while User != 'q':
         
     if User == Computer :
         print("#User gave :" + User + " = " + "#Computer gave " + Computer)
-        print("---Draw!---\n")
+        print("---------------Draw!---------------\n")
     elif (User == "rock") and (Computer == "paper"):
         print("#User gave     :" + rockk +"\n#Computer gave :" + paperr)
-        print("---You lost!---\n")
+        print("---------------You lost!---------------\n")
     elif (User == "rock") and (Computer == "scissor"):
         print("#User gave     :" + rockk +"\n#Computer gave :" + scissorr)
-        print("---You Win!---\n")
+        print("---------------You Win!---------------\n")
     elif (User == "scissor") and (Computer == "paper"):
         print("#User gave     :" + scissorr +"\n#Computer gave :" + paperr)
-        print("---You Win!---\n")
+        print("---------------You Win!---------------\n")
     elif (User == "scissor") and (Computer == "rock"):
         print("#User gave     :" + scissorr +"\n#Computer gave :" + rockk)
-        print("---You lost!---\n")   
+        print("---------------You lost!---------------\n")   
     elif (User == "paper") and (Computer == "rock"):
         print("#User gave     :" + paperr +"\n#Computer gave :" + rockk)
-        print("---You win!---\n") 
+        print("---------------You win!---------------\n") 
     elif (User == "paper") and (Computer == "scissor"):
         print("#User gave     :" + paperr +"\n#Computer gave :" + scissorr)
-        print("---You lost!---\n")  
+        print("---------------You lost!---------------\n")  
