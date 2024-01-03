@@ -1,4 +1,0 @@
-adsfasdf
-asdfsadf
-StopAsyncIterationasd
-f
